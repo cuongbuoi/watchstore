@@ -1,0 +1,28 @@
+
+header{
+	background-color: #fff;
+	#header-wrap{
+		background-color: #fff !important;
+	}
+	
+
+	
+}
+#mainMenu{
+	nav{
+		ul{
+			li{
+				margin-left: 0;
+				a{
+					color: #000 ;
+				}
+				&.active{
+					a{
+						color: $pink !important;
+					}
+				}
+			}
+			
+		}
+	}
+}

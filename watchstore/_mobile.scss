@@ -1,0 +1,99 @@
+.click-dropdown{
+	display: none;
+}
+#header #mainMenu:not(.menu-overlay) nav>ul>li.dropdown:before{
+	display: none !important;
+}
+@media screen and (max-width: 1024px){
+	.yeu{
+		display: none !important;
+	}
+}
+@media screen and (max-width: 991px){
+	#mainMenu nav>ul>li .dropdown-menu>li [class*=col-]>ul>li>a, #mainMenu nav>ul>li .dropdown-menu>li>a, #mainMenu nav>ul>li .dropdown-menu>li>span{
+		color: #000 !important;
+	}
+}
+@media screen and (max-width: 768px){
+	#logo{
+		position: absolute !important;
+	}
+	.taikhoan{
+		display: none;
+	}
+	.dropdown-menu{
+		left: auto;
+		right: 0;
+	}
+	.sidebar{
+		display: none !important;
+	}
+	.click-dropdown{
+		display: inline-block;
+		border: none !important;
+		background-color: transparent !important;
+		color: #333;
+		margin-top: -40px;
+		position: absolute;
+		right:0;
+	}
+	#page-content{
+		margin-top: 30px;
+	}
+	.fa-angle-down{
+	        display: none !important;
+	    }
+	.slogan{
+		display: none;
+	}
+	.slogan2{
+		width: 100%;
+		position: absolute;
+		display: block !important;
+		.img{
+			width: 100% !important;
+			float: none;
+			position: absolute;
+		}
+		.lienhe{
+			display: block;
+			.email{
+				z-index: 999;
+				p{margin:0}
+				.giohang{
+					a{
+						color: #fff;
+					}
+				}
+			}
+		}
+		.timkiem{
+			display: none;
+		}
+	}
+	.lienhemobile{
+		display: flex !important;
+		justify-content:flex-end;
+		.email{
+			margin: 0 50px 0 50px;
+		}
+	}
+}
+@media screen and (max-width: 480px){
+	.lienhemobile{
+		display: flex !important;
+		justify-content:center;
+		.email{
+			margin: 0;
+		}
+
+	}
+	.make-color{
+		width: 250px !important;
+	}
+
+}
+@media screen and (max-width: 320px) {
+	
+	
+}

@@ -1,0 +1,179 @@
+.linetriangle .tabs-navigation > li.active > a:before {
+  opacity: 0; }
+
+.linetriangle .tabs-navigation li a, .linetriangle .tabs-navigation li.active a, .linetriangle .tabs-navigation li.active a:focus, .linetriangle .tabs-navigation li.active a:hover {
+  border: none !important; }
+
+.linetriangle .tabs-navigation > li.active > a:after, .linetriangle .tabs-navigation > li.active > a:before {
+  opacity: 0; }
+
+.post-item .post-audio .post-meta-category, .post-item .post-image .post-meta-category, .post-item .post-quote-img .post-meta-category, .post-item .post-slider .post-meta-category, .post-item .post-video .post-meta-category {
+  background-color: #000 !important; }
+
+.pagination.pagination-simple .active > a, .pagination.pagination-simple .active > a:focus, .pagination.pagination-simple .active > a:hover, .pagination.pagination-simple .active > span, .pagination.pagination-simple .active > span:focus, .pagination.pagination-simple .active > span:hover {
+  color: #000; }
+
+.item-link {
+  color: #000 !important; }
+  .item-link:hover {
+    color: #FF5C01 !important; }
+
+#page-content {
+  padding: 20px 0; }
+
+.mfp-ajax-holder .mfp-content {
+  max-width: 1200px !important; }
+
+.sidebar .widget h4 {
+  margin-bottom: 15px; }
+
+.tags a {
+  border: 2px solid #333;
+  color: #333; }
+
+.ind .product .product-price {
+  float: none;
+  margin-top: 0; }
+
+.panel-sp {
+  border-radius: 0;
+  border: none;
+  box-shadow: none; }
+  .panel-sp .panel-heading {
+    border-radius: 0;
+    background-color: #ddd;
+    margin-bottom: 15px;
+    height: 50px; }
+    .panel-sp .panel-heading .make-color {
+      background-color: #000;
+      border-right: 5px solid #fff;
+      width: 300px;
+      height: 50px;
+      padding: 10px; }
+      .panel-sp .panel-heading .make-color h4 {
+        color: #fff; }
+
+.simple .tabs-navigation li a:hover, .simple .tabs-navigation li.active a, .simple .tabs-navigation li.active a:focus {
+  color: #000;
+  border-color: #000; }
+
+#footer {
+  color: #fff !important; }
+  #footer p {
+    margin: 0; }
+  #footer .footer-content {
+    background-color: #F5F5F5; }
+    #footer .footer-content h5, #footer .footer-content h4 {
+      color: #000; }
+    #footer .footer-content p, #footer .footer-content a {
+      color: #222; }
+  #footer .nhap-mail p {
+    font-style: italic;
+    color: #fff; }
+  #footer .nhap-mail .btn-sendmail {
+    border: none;
+    margin: 0;
+    width: 7em;
+    height: 2.6em;
+    background-color: #FF5C01;
+    color: #000;
+    transition: all 0.3s; }
+    #footer .nhap-mail .btn-sendmail:hover {
+      background-color: #14a6a2; }
+
+.copyright-content .ben-link {
+  color: #FF5C01 !important; }
+.copyright-content .webtienich {
+  color: #ffc05d !important; }
+
+.ipfooter .form-control {
+  border-radius: 0;
+  background-color: #EBEBEB; }
+  .ipfooter .form-control:focus {
+    border: 2px solid #FF5C01; }
+.ipfooter .btn {
+  border-radius: 0; }
+
+.click-dropdown {
+  display: none; }
+
+@media screen and (max-width: 1024px) {
+  .yeu {
+    display: none !important; } }
+@media screen and (max-width: 991px) {
+  #mainMenu nav > ul > li .dropdown-menu > li [class*=col-] > ul > li > a, #mainMenu nav > ul > li .dropdown-menu > li > a, #mainMenu nav > ul > li .dropdown-menu > li > span {
+    color: #fff !important; } }
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none !important; }
+
+  .click-dropdown {
+    display: inline-block;
+    border: none !important;
+    background-color: transparent !important;
+    color: #fff;
+    margin-top: -40px;
+    position: absolute;
+    right: 0; }
+
+  #page-content {
+    margin-top: 30px; }
+
+  .fa-angle-down {
+    display: none; }
+
+  .slogan {
+    display: none; }
+
+  .slogan2 {
+    width: 100%;
+    position: absolute;
+    display: block !important; }
+    .slogan2 .img {
+      width: 100% !important;
+      float: none;
+      position: absolute; }
+    .slogan2 .lienhe {
+      display: block; }
+      .slogan2 .lienhe .email {
+        z-index: 999; }
+        .slogan2 .lienhe .email p {
+          margin: 0; }
+        .slogan2 .lienhe .email .giohang a {
+          color: #fff; }
+    .slogan2 .timkiem {
+      display: none; }
+
+  .lienhemobile {
+    display: flex !important;
+    justify-content: flex-end; }
+    .lienhemobile .email {
+      margin: 0 50px 0 50px; } }
+@media screen and (max-width: 480px) {
+  .lienhemobile {
+    display: flex !important;
+    justify-content: center; }
+    .lienhemobile .email {
+      margin: 0; }
+
+  .make-color {
+    width: 250px !important; } }
+.btn {
+  text-shadow: none !important; }
+
+.btn-cart {
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 0;
+  color: #333;
+  transition: 0.3s; }
+  .btn-cart:hover {
+    background-color: #FF5C01;
+    border: 2px solid !important;
+    color: #fff; }
+  .btn-cart:active {
+    background-color: #FF5C01;
+    border: 2px solid !important;
+    color: #fff; }
+
+/*# sourceMappingURL=main.css.map */
